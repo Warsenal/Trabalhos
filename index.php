@@ -1,47 +1,94 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<<<<<<< HEAD
 
-=======
->>>>>>> 2ac77214152ee629f063b4f568eef16921bf36f3
-<head>
-    <title>
-		Trabalho 0
-    </title>
-</head>
-<body>
-	<h1>Michel Soares Tartas</h1>
-	<table border=1>
-		<caption>
-			Interesses em Tecnologias ao Longo do Curso
-		</caption>
-		<thead>
+	<head>
+		<title>Trabalho 0</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<hr>
+		<h1>Michel Soares Tartas</h1>
+		<h3>Acadêmico da UFFS - Ciência da Computação</h3>
+		<h4><a href="mailto:michel_s_t@yahoo.com.br">michel_s_t@yahoo.com.br</a></h4>
+		<hr>
+		
+		<table align=center border=1>
+			<th>Componente Curricular</th>
+			<th>Trabalhos Realizados</th>
+			
 			<tr>
-				</th><th>Nome</th>
+				<td>Algoritmos</td>
+				<td>Campo Minado</td>
 			</tr>
-		</thead>
-		<tbody>
+			
 			<tr>
-				<td>Linguagem de programação Orientada a Objetos</td>
+				<td>Estruturas de Dados I</td>
+				<td>Filas</td>
 			</tr>
+			
 			<tr>
-				<tr></tr><td>Engines</td>
+				<td>Estruturas de Dados I</td>
+				<td>Listas Encadeadas</td>
 			</tr>
+			
 			<tr>
-				<tr></tr><td>Linguagem de estilos CSS</td>
+				<td>Estruturas de Dados I</td>
+				<td>Listas Duplamente Encadeadas</td>
 			</tr>
+			
 			<tr>
-				<tr></tr><td>Banco de dados MySQL</td>
+				<td>Programação I</td>
+				<td>Interpretador de Linguagem Orc</td>
 			</tr>
+			
 			<tr>
-				<tr></tr><td>Sistema de controle de versão Git</td>
+				<td>Programação I</td>
+				<td>Rolador de Dados para Android</td>
 			</tr>
+			
 			<tr>
-				<tr></tr><td>Linguagem de marcação HTML</td>
+				<td>Projeto de Extensão</td>
+				<td>Jogos com Caráter Educativo</td>
 			</tr>
-		</tbody>
-	</table>
-</body>
-
+		</table>
+		
+		<hr>
+		
+		<table align=center border=1>
+			<th>
+				Interesses em Tecnologias ao Longo do Curso
+			</th>
+			
+			<tr>
+				<td>Linguagem de programação Orientada a Objetos, Java, C++</td>
+			</tr>
+			
+			<tr>
+				<td>Engines</td>
+			</tr>
+			
+			<tr>
+				<td>HTML, PHP, CSS, Javascript, Ajax</td>
+			</tr>
+			
+			<tr>
+				<td>MySQL</td>
+			</tr>
+			
+			<tr>
+				<td>Sistemas de controle de versão</td>
+			</tr>
+			
+			<tr>
+				<td>Computação Gráfica</td>
+			</tr>
+			
+			<tr>
+				<td>Diversos outros que ajudarão na criação de Games</td>
+			</tr>
+		</table>
+		<hr>
+	</body>
 </html>
