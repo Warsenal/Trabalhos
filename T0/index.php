@@ -8,13 +8,15 @@
 	<body>
 		<hr/>
 		<h1>Michel Soares Tartas</h1>
-		<h3>Academico da UFFS - Ciência da Computação</h3>
+		<h3>Academico da UFFS - Ciencia da Computação</h3>
 		<h4><a href="mailto:michel_s_t@yahoo.com.br">michel_s_t@yahoo.com.br</a></h4>
 		<hr/>
 		
 		<table border="1">
-			<th>Componente Curricular</th>
-			<th>Trabalhos Realizados</th>
+			<tr>
+				<th>Componente Curricular</th>
+				<th>Trabalhos Realizados</th>
+			</tr>
 			
 			<tr>
 				<td>Algoritmos</td>
@@ -55,9 +57,9 @@
 		<hr>
 		
 		<table border="1">
-			<th>
-				Interesses em Tecnologias ao Longo do Curso
-			</th>
+			<tr>
+				<th>Interesses em Tecnologias ao Longo do Curso</th>
+			</tr>
 			
 			<tr>
 				<td>Linguagem de programação Orientada a Objetos, Java, C++</td>
