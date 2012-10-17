@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
+		<meta charset="UTF-8">
 		<title>Trabalho 0</title>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
