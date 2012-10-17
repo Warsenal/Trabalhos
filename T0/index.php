@@ -14,7 +14,7 @@
 		<h4><a href="mailto:michel_s_t@yahoo.com.br">michel_s_t@yahoo.com.br</a></h4>
 		<hr>
 		
-		<table align=center border=1>
+		<table align="center" border="1">
 			<th>Componente Curricular</th>
 			<th>Trabalhos Realizados</th>
 			
@@ -56,7 +56,7 @@
 		
 		<hr>
 		
-		<table align=center border=1>
+		<table align="center" border="1">
 			<th>
 				Interesses em Tecnologias ao Longo do Curso
 			</th>
