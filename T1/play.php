@@ -324,7 +324,7 @@ class TicTacToe {
         } else {
             $ranking[$name]++;
         }
-        asort($ranking);
+        arsort($ranking);
         file_put_contents('games/ranking.txt', serialize($ranking));
     }
     
