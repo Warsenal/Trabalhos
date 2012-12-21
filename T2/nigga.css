@@ -1,0 +1,180 @@
+/* Codificação UTF-8 */
+a{
+	background-color: #999;
+	border: solid 1px #222;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	padding: 1px;
+	text-decoration: none;
+}
+
+h1{
+	position: relative;
+	text-align: center;
+	margin: 0px;
+	top: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 0px 0px 10px white;
+}
+
+input[type="text"], input[type="password"]{
+	width: 200px;
+}
+
+img{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p{
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+}
+
+#index{
+	background-image: url("images/bg_index.jpg");
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#register{
+	background-image: url("images/bg_index.jpg");
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#register h1{
+	position: relative;
+	text-align: center;
+	margin: 0px;
+	top: 100px;
+	font-size: 75px;
+	font-weight: bold;
+	text-shadow: 0px 0px 10px white;
+}
+
+#search{
+	background-color: black;
+}
+
+#search h1{
+	position: relative;
+	text-align: center;
+	margin: 0px;
+	top: 50px;
+	font-size: 100px;
+	font-weight: bold;
+	text-shadow: 0px 0px 10px white;
+}
+
+#result{
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+.index{
+	border: 2px solid black;
+	border-radius: 1em;
+	color: white;
+	margin-top: 50px; margin-bottom: 5px; margin-left: auto; margin-right: auto;
+	text-align: center;
+	background-color: black;
+	width: 20%;
+}
+
+.register{
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 1em;
+	color: white;
+	margin-top: 180px; margin-bottom: 5px; margin-left: auto; margin-right: auto;
+	padding: 10px;
+	text-align: center;
+	width: 25%;
+}
+
+.search{
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 1em;
+	color: white;
+	margin-top: 175px; margin-bottom: 5px; margin-left: auto; margin-right: auto;
+	padding: 10px;
+	text-align: center;
+	width: 25%;
+	
+	-moz-box-shadow: 0 0 10px 10px #888;
+	-webkit-box-shadow: 0 0 10px 10px#888;
+	box-shadow: 0 0 10px 10px #888;
+}
+
+#video {
+	
+    margin: auto;
+	margin-top:25px;
+    width: 40%;
+    text-align: center;
+}
+
+#likes{
+	border: 2px solid black;
+    background-color: gray;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 40%;
+}
+
+#lyrics {
+	border: 2px solid black;
+	color: white;
+    background-color: gray;
+    margin: auto;
+	margin-bottom: 20px;
+    width: 40%;
+	padding: 5px;
+    text-align: center;
+}
+
+#title{
+	border: 2px solid black;
+	/*position: relative;*/
+	text-align: center;
+    width: 40%;
+    background-color: gray;
+	margin: auto;
+    margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 0px 0px 10px white;
+}
+
+#info {
+	border: 2px solid black;
+	color: white;
+    background-color: gray;
+    margin: auto;
+	margin-bottom: 20px;
+    width: 60%;
+	padding: 5px;
+    text-align: center;
+}
+
+#albums {
+	border: 2px solid black;
+	color: white;
+    background-color: gray;
+    margin: auto;
+    width: 40%;
+	padding: 5px;
+    text-align: center;
+}
