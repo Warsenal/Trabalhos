@@ -176,12 +176,14 @@ function printAlbums($html) {
  *==================================*/
 function printBiography($html) {
     $a = strpos($html, '<div class="wiki-text">');
-    $b = strpos($html, '</div>', $a);
-    $c = substr($html, $a + 23, $b - $a - 23);
-    echo "<div id=\"info\">";
-    echo "<p>Biography</p>";
-    echo strip_tags($c);
-    echo "</div>";
+	if($a !== FALSE){
+		$b = strpos($html, '</div>', $a);
+		$c = substr($html, $a + 23, $b - $a - 23);
+		echo "<div id=\"info\">";
+		echo "<p>Biography</p>";
+		echo strip_tags($c);
+		echo "</div>";
+	}
 }
 
 /*====================================
