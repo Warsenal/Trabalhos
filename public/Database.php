@@ -6,8 +6,22 @@
 	//$senha = md5($_POST['senha'] . SAL); // 32 chars
 
 	function dbConnect(){
-		mysql_connect("localhost", "root", "") or die('Erro'.mysql_error());
-		mysql_select_db("medieval_adventure") or die('Erro'.mysql_error());
+	
+	if ($_SERVER['DOCUMENT_ROOT'] === 'C:/Users/User/Documents/xampp/htdocs') {
+			$hostname = 'localhost';
+			$username= 'root';
+			$password = '';
+			$dbname= 'medieval_adventure';
+		} else {
+			$hostname = 'madv-db.my.phpcloud.com';
+			$username= 'madv';
+			$password = 'd237h848';
+			$dbname= 'madv';
+		}
+		
+		mysql_connect($hostname, $username, $password) or die('Erro'.mysql_error());
+		mysql_select_db($dbname) or die('Erro'.mysql_error());
+	
 	}
 	
 	function dbQuery($query){
