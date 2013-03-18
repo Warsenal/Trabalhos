@@ -1,6 +1,6 @@
 <?php
 	
-	require_once "Database.php";
+	require_once "database.php";
 	session_start();
 	
 	$p_id = $_SESSION['id'];
@@ -11,7 +11,7 @@
 	if(mysql_num_rows($query)>=1){
 		
 		while($data = mysql_fetch_array($query)){
-			echo"<img src=\"Assets/i_0".$data['i_id'].".png\">"; echo" ".$data['i_name']." ".$data['i_qt'];
+			echo"<img src=\"assets/i_0".$data['i_id'].".png\">"; echo" ".$data['i_name']." ".$data['i_qt'];
 		}
 	} else {
 		echo"You Don't Have Itens, Try to do some Jobs to get Itens! :)";

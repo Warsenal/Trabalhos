@@ -1,12 +1,12 @@
 <?php
 
-	require_once 'Database.php';
-	require_once 'View.php';
+	require_once 'database.php';
+	require_once 'view.php';
 	session_start();
 	
 	if($_SESSION['login']!=true){
 	
-		header("Location: Index.php");
+		header("Location: index.php");
 		exit();
 	}
 	
@@ -14,7 +14,7 @@
 	pJavascript();
 	
 	echo('
-		<div id="exit"><a href="SignOut.php"> <input type="submit" value="Exit"></a></div>
+		<div id="exit"><a href="signOut.php"> <input type="submit" value="Exit"></a></div>
 	');
 	
 	echo('
@@ -39,7 +39,7 @@
 
 			<div id="gameMid">
 				</br>
-				<img src="Assets/Logo.jpg" alt="Medieval Adventure"/>
+				<img src="assets/logo.jpg" alt="Medieval Adventure"/>
 				</br>
 			</div>
 			

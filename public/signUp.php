@@ -1,7 +1,7 @@
 <?php
 
-	require_once 'Database.php';
-	require_once 'View.php';
+	require_once 'database.php';
+	require_once 'view.php';
 	session_start();
 	
 	$user = @$_POST['user'];
@@ -51,7 +51,7 @@
 		echo('<script type="text/javascript">alert("Registration successfully performed! =)")</script>');
 		
 		@$_SESSION['user']=$user;
-		header("Location: Index.php");
+		header("Location: index.php");
 		exit();
 	}
 	
@@ -60,11 +60,11 @@
 	echo('
 		
 		<div id="signupTop">
-			<img src="Assets/signup.png" alt="SignUP"/>
+			<img src="assets/signup.png" alt="SignUP"/>
 		</div>
 		
 		<div id="signupMid">		
-			<form action="SignUp.php" method="post">
+			<form action="signUp.php" method="post">
 				Login <input type="text" name="user" value="'.@$_SESSION['user'].'"/><br/>
 				Email <input type="text" name="email" value="'.@$_SESSION['email'].'"/>
 				Password <input type="password" name="pass1"/><br/>
@@ -77,7 +77,7 @@
 		<br/>
 		
 		<div id="signupBot">
-			<form action="Index.php">
+			<form action="index.php">
 				<input type="submit" value="Cancel"/>
 			</form>
 		</div>

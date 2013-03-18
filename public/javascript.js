@@ -6,35 +6,35 @@ function ok(text){
 	
 function character(){
 	$.ajax({
-		url:"Character.php"
+		url:"character.php"
 	}).done(ok);
 }
 
 function map(){
 	$.ajax({
-		url:"Map.php"
+		url:"map.php"
 	}).done(ok);
 }
 
 function inventory(){
 	$.ajax({
-		url:"Inventory.php"
+		url:"inventory.php"
 	}).done(ok);
 }
 
 function equipment(){
 	$.ajax({
-		url:"Equipment.php"
+		url:"equipment.php"
 	}).done(ok)
 }
 
 function blacksmith(){
 	$.ajax({
-		url:"Blacksmith.php"
+		url:"blacksmith.php"
 	}).done(ok)
 }
 
-//Functions from Map.php
+//Functions from map.php
 
 function jobResult(text){
 	alert(text);
@@ -42,11 +42,11 @@ function jobResult(text){
 
 function job(j_id){
 	$.ajax({
-		url:"Jobs.php?j_id="+j_id
+		url:"jobs.php?j_id="+j_id
 	}).done(jobResult);
 }
 
-//Function From Character.php
+//Function From character.php
 
 /*
 function increaseAttribute(attribute){
@@ -125,7 +125,7 @@ function save(){ //Get all information about player and save in the Database
 	var p_cha = parseInt(cha.innerHTML);
 		
 	$.ajax({
-		url:"CharacterSave.php?p_atr="+p_atr+"&p_str="+p_str+"&p_dex="+p_dex+"&p_int="+p_int+"&p_cha="+p_cha
+		url:"characterSave.php?p_atr="+p_atr+"&p_str="+p_str+"&p_dex="+p_dex+"&p_int="+p_int+"&p_cha="+p_cha
 	}).done(attributeResult);
 	
 }
@@ -138,6 +138,6 @@ function BlacksmithResult(text){
 
 function Blakcsmith(i_id){
 	$.ajax({
-		url:"Forge.php?i_id="+i_id
+		url:"forge.php?i_id="+i_id
 	}).done(BlacksmithResult);
 }

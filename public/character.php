@@ -1,6 +1,6 @@
 <?php
 	
-	require_once 'Database.php';
+	require_once 'database.php';
 	session_start();
 	
 	$id = $_SESSION['id'];
@@ -43,21 +43,21 @@
 					<table>
 						<tr>
 							<td>
-								<a id=\"c_1\"	href=\"javascript:void(0);\"	OnClick=\"increaseStr(1);\"> <img src=\"Assets/p_s.png\"></a>
+								<a id=\"c_1\"	href=\"javascript:void(0);\"	OnClick=\"increaseStr(1);\"> <img src=\"assets/p_s.png\"></a>
 								</br>Strength: <p id=\"a_1\">$p_str</p>
 							</td>
 							<td>
-								<a id=\"c_2\"	href=\"javascript:void(0);\"	onClick=\"increaseDex(1);\"> <img src=\"Assets/p_d.png\"></a>
+								<a id=\"c_2\"	href=\"javascript:void(0);\"	onClick=\"increaseDex(1);\"> <img src=\"assets/p_d.png\"></a>
 								</br>Dexterity: <p id=\"a_2\">$p_dex</p>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<a id=\"c_3\"	href=\"javascript:void(0);\"	onClick=\"increaseaInt(1);\"> <img src=\"Assets/p_i.png\"></a>
+								<a id=\"c_3\"	href=\"javascript:void(0);\"	onClick=\"increaseaInt(1);\"> <img src=\"assets/p_i.png\"></a>
 								</br>Intelligence: <p id=\"a_3\">$p_int</p>
 							</td>
 							<td>
-								<a id=\"c_4\"	href=\"javascript:void(0);\"	onClick=\"increaseCar(1);\"> <img src=\"Assets/p_c.png\"></a>
+								<a id=\"c_4\"	href=\"javascript:void(0);\"	onClick=\"increaseCar(1);\"> <img src=\"assets/p_c.png\"></a>
 								</br>Charism:<p id=\"a_4\">$p_cha</p>
 							</td>
 						</tr>
