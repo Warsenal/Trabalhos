@@ -20,7 +20,7 @@
 	echo('
 		<div id="announcement">
 			Announcement:
-				</br>This is a Demo version from a game :)</br>
+				<br>This is a Demo version from a game :)<br>
 		</div>
 	');
 
@@ -38,9 +38,9 @@
 			</div>
 
 			<div id="gameMid">
-				</br>
+				<br>
 				<img src="assets/Logo.jpg" alt="Medieval Adventure"/>
-				</br>
+				<br>
 			</div>
 			
 			<div id="gameBot">

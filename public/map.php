@@ -5,6 +5,7 @@
 
 	echo'
 		<img id="map" src="assets/m_worldmap.jpg"/>
+		<div id="dialog" title="You Have done the job!"><a class="boxclose" id="boxclose"></a></div>
 		
 		<a id="j_1" href="javascript:void(0);" onClick="job(1);return(false);"> <img src="assets/j_1.jpg"> </a>
 		<a id="j_2" href="javascript"void(0);" onClick="job(2);return(false);"> <img src="assets/j_2.jpg"> </a>

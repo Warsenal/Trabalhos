@@ -62,30 +62,21 @@
 			$p_level++;
 			$p_attribute++;
 			
-			echo"AVANCOU DE NIVEL";
+			echo"<br>Level Up!<br>";
 		}
 		
 		mysql_query("UPDATE player SET p_money = '$p_money', p_expa = '$p_expa', p_expt = '$p_expt', p_level = '$p_level', p_attribute = '$p_attribute' WHERE p_id = '$p_id'");
 		
 		echo"
 			<h1>$j_name</h1>
-			</br>
-			You Have Gained:</br>
-			Money:$j_money </br>
-			Experience: $j_exp </br>
+			<br>
+			You Have Gained:<br>
+			Money:$j_money <br>
+			Experience: $j_exp <br>
 			
 			Item: $i_name
+			<br>
 		";
-	}
-	
-	function levelUp(){
-		while($p_expmax <= $p_exp){
-			$p_exp = $p_exp - $p_expmax;	
-			$p_expmax = $p_expmax + ((($p_level+1) *2)+1);
-			$p_level++;
-			
-			echo"AVANCOU DE NIVEL";
-		}
 	}
 	
 	doJob();

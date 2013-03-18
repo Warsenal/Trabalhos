@@ -202,6 +202,33 @@
 	position: relative;
 }
 
+.ui-dialog-titlebar {
+	background-color: gold;
+	border:2px solid #ccc;
+    -moz-border-radius: 20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+	padding: 2px;
+	text-align: center;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	content: "x";
+}
+
+
+#dialog{
+	background-color: gold;
+	border:2px solid #ccc;
+    -moz-border-radius: 20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+	text-align: center;
+}
+
 #j_1{
 	position: absolute;
 	left: 790px;

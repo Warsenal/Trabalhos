@@ -16,7 +16,7 @@
 			<img src="assets/Logo.jpg" alt="Medieval Adventure"/>
 		</div>
 
-		</br>
+		<br>
 		
 		<div id="indexMid">
 			<form action="signIn.php" method="post">
@@ -25,7 +25,7 @@
 			</form>
 		</div>
 		
-		</br>
+		<br>
 		
 		<div id="indexBot">
 			<form action="signUp.php" method="post">

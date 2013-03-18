@@ -37,7 +37,11 @@ function blacksmith(){
 //Functions from map.php
 
 function jobResult(text){
-	alert(text);
+
+	window.document.getElementById('dialog').innerHTML=text;
+	$(function() {
+		$( "#dialog" ).dialog();
+	});
 }
 
 function job(j_id){
