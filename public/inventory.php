@@ -1,6 +1,7 @@
 <?php
 	
 	require_once "database.php";
+	session_start();
 	
 	$p_id = $_SESSION['id'];
 	
