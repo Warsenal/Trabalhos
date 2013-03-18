@@ -5,7 +5,7 @@
 			<!DOCTYPE HTML>
 			<html>
 				<head>
-					<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+					<link rel="stylesheet" type="text/css" href="css/style.css">
 					<meta name="description" content="Medieval Browser Game">
 					<meta name="keywords" content="Browser Game, Medieval Browser Game, Medieval, Game, Online Game, Adventure Time, Medieval Adventure">
 					<meta name="author" content="Warsenal Games">
@@ -22,7 +22,7 @@
 			<!DOCTYPE HTML>
 			<html>
 				<head>
-					<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+					<link rel="stylesheet" type="text/css" href="css/style.css">
 					<meta name="description" content="Medieval Browser Game">
 					<meta name="keywords" content="Browser Game, Medieval Browser Game, Medieval, Game, Online Game">
 					<meta name="author" content="Warsenal Games">
