@@ -2,13 +2,6 @@
 	//Codificação UTF-8
 	
 	require_once 'view.php';
-	@session_start();
-	
-	if($_SESSION['login']!=true){
-	
-		header("Location: index.php");
-		exit();
-	}
 
 	echo'
 		<img id="map" src="assets/m_worldmap.jpg"/>
