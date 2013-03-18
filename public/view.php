@@ -37,7 +37,7 @@
 	
 	function pJavascript(){
 		echo'
-			<script type="text/javascript" src="Javascript.js"> </script>
+			<script type="text/javascript" src="javascript.js"> </script>
 		';
 	}
 	

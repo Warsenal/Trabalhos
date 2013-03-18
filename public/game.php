@@ -39,7 +39,7 @@
 
 			<div id="gameMid">
 				</br>
-				<img src="assets/logo.jpg" alt="Medieval Adventure"/>
+				<img src="assets/Logo.jpg" alt="Medieval Adventure"/>
 				</br>
 			</div>
 			

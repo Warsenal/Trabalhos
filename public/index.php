@@ -13,7 +13,7 @@
 	
 	echo'
 		<div id="indexUp">
-			<img src="assets/logo.jpg" alt="Medieval Adventure"/>
+			<img src="assets/Logo.jpg" alt="Medieval Adventure"/>
 		</div>
 
 		</br>
