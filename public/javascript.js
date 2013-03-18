@@ -130,14 +130,14 @@ function save(){ //Get all information about player and save in the Database
 	
 }
 
-//Blacksmith Page
+//blacksmith Page
 
-function BlacksmithResult(text){
+function blacksmithResult(text){
 	alert(text);
 }
 
 function Blakcsmith(i_id){
 	$.ajax({
 		url:"forge.php?i_id="+i_id
-	}).done(BlacksmithResult);
+	}).done(blacksmithResult);
 }
