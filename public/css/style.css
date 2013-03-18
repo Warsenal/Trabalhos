@@ -197,9 +197,7 @@
 
 /* Map Page */
 
-#map{
-	position: relative;
-}
+
 
 .ui-dialog-titlebar {
 	background-color: gold;
@@ -228,22 +226,30 @@
 	text-align: center;
 }
 
+#map{
+	position: relative;
+}
+
+#mapImg{
+	width: 100%;
+}
+
 #j_1{
 	position: absolute;
-	left: 790px;
-	top: 865px;
+	left: 750px;
+	top: 760px;
 }
 
 #j_2{
 	position: absolute;
-	left: 900px;
-	top: 350px;
+	left: 880px;
+	top: 225px;
 }
 
 #j_3{
 	position: absolute;
-	left: 710px;
-	top: 210px;
+	left: 485px;
+	top: 25px;
 }
 #j_4{
 	position: absolute;
@@ -253,25 +259,25 @@
 
 #j_5{
 	position: absolute;
-	left: 700px;
-	top: 590px;
+	left: 400px;
+	top: 550px;
 }
 
 /* Blacksmith Pages */
 
-#Blacksmith{
-
-	margin: auto;
-	overflow: auto;
+#blacksmith{
 	position: relative;
-	text-align: center;
-	width: 90%;
 }
 
-#BlacksmithForge{
+#blacksmithImg{
+	width: 100%;
+}
+
+
+#blacksmithForge{
 
 	position: absolute;
-	top: 0;
+	top: 50px;
 	right: 50px;
 
 }

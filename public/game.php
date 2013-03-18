@@ -44,7 +44,7 @@
 			</div>
 			
 			<div id="gameBot">
-				<button onClick="blacksmith();">blacksmith</button>
+				<button onClick="blacksmith();">Blacksmith</button>
 			</div>
 		</div>
 	
