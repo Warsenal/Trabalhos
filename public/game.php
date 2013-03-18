@@ -2,7 +2,7 @@
 
 	require_once 'database.php';
 	require_once 'view.php';
-	session_start();
+	@session_start();
 	
 	if($_SESSION['login']!=true){
 	

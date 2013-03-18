@@ -1,7 +1,7 @@
 <?php
 	
 	require_once 'database.php';
-	session_start();
+	@session_start();
 	dbConnect();
 	
 	if($_SESSION['login']!=true){
