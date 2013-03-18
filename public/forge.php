@@ -3,6 +3,12 @@
 	require_once "database.php";
 	session_start();
 	
+	if($_SESSION['login']!=true){
+	
+		header("Location: index.php");
+		exit();
+	}
+	
 	dbConnect();
 	
 	function doItem(){

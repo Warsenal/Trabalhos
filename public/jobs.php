@@ -4,6 +4,12 @@
 	session_start();
 	dbConnect();
 	
+	if($_SESSION['login']!=true){
+	
+		header("Location: index.php");
+		exit();
+	}
+	
 	function doJob(){
 		
 		$j_id = $_GET['j_id'];
